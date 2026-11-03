@@ -1,0 +1,10 @@
+name: rustdesk
+title: RustDesk Server
+icon: rustdesk
+
+services:
+- name: rustdesk
+  title: RustDesk Server
+  service: rustdesk
+  required: true
+  main: true
