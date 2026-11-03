@@ -38,6 +38,6 @@ wodby stack validate-manifest stack.yml --org <org-id>
 
 ## Connect devices
 
-RustDesk devices connect to published TCP and UDP ports of the `rustdesk` service, not to its HTTPS domain. Publish
-the `id`, `id-udp` and `relay` ports, redeploy the service, then run its **Show client settings** action for the
-values to enter in each RustDesk client. See the [service README](https://github.com/wodby/service-rustdesk#connect-devices).
+RustDesk devices connect over WebSocket to the `rustdesk` service's HTTPS domain, so no ports need publishing. Run the
+service's **Show client settings** action and enter the values it prints in the RustDesk app on each device, with
+**Use WebSocket** turned on. See the [service README](https://github.com/wodby/service-rustdesk#connect-devices).
