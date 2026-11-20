@@ -1,6 +1,7 @@
 name: rustdesk
 title: RustDesk Server
 icon: rustdesk
+category: networking
 docs: https://wodby.com/docs/2.0/stacks/catalog/rustdesk/
 
 services:
