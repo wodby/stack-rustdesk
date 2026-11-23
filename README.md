@@ -11,6 +11,7 @@ composition for RustDesk Server.
 
 - [RustDesk Server stack on Wodby](https://wodby.com/stacks/rustdesk)
 - [Browse Wodby application stacks](https://wodby.com/stacks)
+- [RustDesk Server stack guide](https://wodby.com/docs/2.0/stacks/catalog/rustdesk/)
 - [Wodby stack documentation](https://wodby.com/docs/2.0/stacks/)
 - [Stack manifest reference](https://wodby.com/docs/2.0/stacks/template/)
 
